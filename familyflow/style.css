@@ -1,10 +1,22 @@
-h1,h2,p{
-    background-color: red;
-	center:;
+/*rgba is awesome (0,0,0,opactiy)*/
 
+html{
+	background:snow;
 }
+
+
+h1,h2,p{
+    text-align: center;
+    font-family:Arial,sans-serif;
+}
+
+form{
+	text-align: justify;
+	text-align: center;
+}
+
 input[type="submit"]{
-	background-color:red;
+	background-color:#358df2;
 	border:none;
 	color:#fff;
 	padding:1em 2em;
@@ -20,6 +32,6 @@ input[type="text"]:focus{
 .logo {
 	font-size:2em;
 	font-family:sans-serif;
-	color:#fff;
+	color:blue;
 }
 /*square brackets are role selectors*/ 
