@@ -4,10 +4,14 @@ html{
 	background:snow;
 }
 
-
 h1,h2,p{
     text-align: center;
     font-family:Arial,sans-serif;
+}
+
+
+a{
+	text-decoration:none;
 }
 
 form{
@@ -16,7 +20,7 @@ form{
 }
 
 input[type="submit"]{
-	background-color:#358df2;
+	background-color:#4169E1;
 	border:none;
 	color:#fff;
 	padding:1em 2em;
@@ -30,8 +34,10 @@ input[type="text"]:focus{
 	box-shadow:1px 1px 3px rgba(0,0,0,.25);
 }
 .logo {
+	color:#4169E1;
 	font-size:2em;
 	font-family:sans-serif;
-	color:blue;
+	text-align:left;
+	text-decoration:underline;
 }
 /*square brackets are role selectors*/ 
