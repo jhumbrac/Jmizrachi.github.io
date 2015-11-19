@@ -1,18 +1,33 @@
-@import url();
+/*bacground images in css*/
+/*products
+photogrophs*/
 
-html{
-	background:snow;
-}
+/*CSS is a funnel
+big to small*/
+/*larger tags 
+specific 
+.classes and #ids*/
+
+
+@import url();
+* { margin:0; padding:0; box-sizing:border-box; }
 
 h1,h2,p{
     text-align: center;
     font-family:Arial,sans-serif;
 }
-
+h1 {
+	padding:5em;
+}
 
 a{
 	text-decoration:none;
 }
+
+span{
+	font-size:2em;
+}
+
 
 form{
 	text-align: justify;
@@ -38,6 +53,35 @@ input[type="text"]:focus{
 	font-size:2em;
 	font-family:sans-serif;
 	text-align:left;
-	text-decoration:underline;
 }
+#splash {
+	background:url(cssPics/familybeach.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	height:90vh;
+}
+
+header{
+}
+
+nav{
+}
+
+aside{
+	
+}
+
+section{
+}
+
+footer{
+}
+
+
+
+
 /*square brackets are role selectors*/ 
+
+
+
